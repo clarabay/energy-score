@@ -1,0 +1,9 @@
+numpy
+pandas==1.4.4
+matplotlib
+epiweeks
+seaborn
+numba
+scipy
+geopandas
+shapely
