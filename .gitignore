@@ -164,5 +164,4 @@ cython_debug/
 dat/
 fludat/
 rsvdat/
-figs/
 .DS_Store
