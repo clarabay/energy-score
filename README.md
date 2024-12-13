@@ -26,3 +26,5 @@ multi-dimensional_energyscore.ipynb - analyze the multi-dimensional energy score
 single_week_scores.ipynb - used to examine the energy score at single time points with synthetic and influenza scenario modeling data. Used to generate part of fig 3 and S2 in the paper.
 
 visualize_scenario_trajectories.ipynb - used to create plots visualizing scenario projections. Used to generate fig 2 in the paper.
+
+Data generated from this code and used to generate figures and tables in the paper can be found in the flu_data directory. All scenario modeling projection data used in this project can be found at the Flu Scenario Modeling Github repo https://github.com/midas-network/flu-scenario-modeling-hub/tree/main. This paper analyzed round 4 of the Flu Scenario Modeling Hub (submission date September, 2023).
