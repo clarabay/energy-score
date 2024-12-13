@@ -1,0 +1,7 @@
+numpy
+pandas==1.4.4
+matplotlib
+requests
+epiweeks
+fastparquet
+seaborn
