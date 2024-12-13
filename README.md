@@ -19,7 +19,7 @@ in the `energy-score` directory.
 **NOTE**: pandas version 1.4.4 is required, so it is best creating a new virtual environment prior
 to install all packages.
 
-Also, make sure the [scorepi](https://github.com/gstonge/scorepi) package is installed (not in the requirement list), as well as [jupyter lab or jupyter notebook](https://jupyter.org/install) (whichever is prefered).
+Also, make sure the [scorepi](https://github.com/gstonge/scorepi) package is installed (not in the requirement list), as well as [jupyter lab or jupyter notebook](https://jupyter.org/install) (whichever is prefered). Scorepi is used for some data formatting in the included code, but is not required for any calculation of the energy score itself.
 The `scorepi` package is included as a directory, and can be installed directly using
 ```
 pip install ./scorepi
