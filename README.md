@@ -24,7 +24,7 @@ The `scorepi` package is included as a directory, and can be installed directly 
 ```
 pip install ./scorepi
 ```
-
+Python version 3.10.9 is used.
 
 # Notebook Descriptions
 
