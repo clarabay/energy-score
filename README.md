@@ -32,13 +32,17 @@ energy_score_tutorial.ipynb - gives examples of how to calculate the energy scor
 
 energyscore_fcn.py - function used to calculate the energy score
 
-baseline_model-analysis.ipynb - used to generate a naive baseline forecast and trajectories for the predictions. calculate energy score and multi-dimensional energy score with data from the 2023-24 influenza season. Used to generate Fig. S6.
+baseline_model-analysis.ipynb - used to generate a naive baseline forecast and trajectories for the predictions. calculate energy score and multi-dimensional energy score with data from the 2023-24 influenza season. Used to generate Fig. S4. baseline_model-analysis-covidrd19.ipynb and baseline_model-analysis_flurd5.ipynb generate naive baseline forecast for the 2025-26 COVID-19 and 2024-25 flu projection round, respectively.
 
-energyscore_flu_rd4-analysis.ipynb - used to calculate all scores for 2023-24 Flu Scenario Modeling Hub round and generate analysis for these projections. Used to generate parts of Figs. 4 and 5, Tables S2 and S3, and Figs. S1, S2, and S3 in the paper.
+energyscore_flu_rd4-analysis.ipynb - used to calculate all scores for 2023-24 Flu Scenario Modeling Hub round and generate analysis for these projections. Used to generate parts of Figs. 4 and 5, Tables S2 and S3, and Figs. S1, S2, S3, and S5 in the paper.
 
-energyscore_sampling_analysis.ipynb - used to calculate the energy score for samples of trajectories and compare to the full energy score. Used to generate Fig. S5.
+energyscore_flu_rd5-analysis.ipynb - used to calculate all scores for 2024-25 Flu Scenario Modeling Hub and analyze projections. Used to generate Fig. S8.
 
-ensemble_analysis.ipynb - used to generate an ensemble of trajectories and analyze the energy score and multi-dimensional energy score of the resulting ensemble model. Used to generate Figs. 6 and S4, and Table S4 in the paper.
+energyscore_covid_rd19-analysis.ipynb - used to calculate all scores for 2025-26 COVID-19 Scenario Modeling Hub and analyze projections. Used to generate Fig. S9.
+
+energyscore_sampling_analysis.ipynb - used to calculate the energy score for samples of trajectories and compare to the full energy score. Used to generate Fig. S7.
+
+ensemble_analysis.ipynb - used to generate an ensemble of trajectories and analyze the energy score and multi-dimensional energy score of the resulting ensemble model. Used to generate Figs. 6 and S6, and Table S4 in the paper.
 
 synthetic_data_multi-peak.ipynb - used to create synthetic experiments that compare the evaluation methods of the energy score and WIS when there are complex epidemic dynamics. Used to generate Fig. 2 in the paper.
 
@@ -50,4 +54,4 @@ single_week_scores.ipynb - used to examine the energy score at single time point
 
 visualize_scenario_trajectories.ipynb - used to create plots visualizing scenario projections. Used to generate Fig. 3 in the paper.
 
-Data generated from this code and used to generate figures and tables in the paper can be found in the flu_data directory. All scenario modeling projection data used in this project can be found at the Flu Scenario Modeling Github repo https://github.com/midas-network/flu-scenario-modeling-hub/tree/main. This paper analyzed round 4 of the Flu Scenario Modeling Hub (submission date September, 2023).
+Data generated from this code and used to generate figures and tables in the paper can be found in the flu_data and covid_data directory. All scenario modeling projection data used in this project can be found at the Flu Scenario Modeling Hub Github repo https://github.com/midas-network/flu-scenario-modeling-hub/tree/main and COVID-19 Scenario Modeling Hub GitHub repo https://github.com/midas-network/covid19-scenario-modeling-hub. This paper analyzed round 4 of the Flu Scenario Modeling Hub (submission date September, 2023), with supplementary analysis on round 5 of the Flu Scenario Modeling Hub (submission in August 2024) and round 19 of the COVID-19 Scenario Modeling Hub (submission in April 2025).
